@@ -16,5 +16,13 @@ cd cmake-build-debug
 ./vm <source-file.bin> <0xinitial-base-pointer> <0xinitial-program-counter>
 ```
 
+To run each program respectively:
+- `./vm example1.bin 0x0100 0x0600`
+- `./vm inclass_fib.bin 0x0100 0x0600`
+- `./vm hw4_a.bin 0x0100 0x0400`
+- `./vm hw4_b.bin 0x0100 0x0400`
+- `./vm hw5_a.bin 0x0100 0x0400`
+- `./vm hw5_b.bin 0x0100 0x0400`
+
 ## Included Programs
 I've provided a few sample programs that you can run. Most programs have an associated `.s` source assembly file. I will not provide the assembler itself as it is the intellectual property of my professor, but I hope you can get a rough understanding of what these programs do from their source files.
